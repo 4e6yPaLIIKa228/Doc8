@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DoctorManeModelContainer" CdmEntityContainer="Heal1">
+    <EntitySetMapping Name="Autoris">
+      <EntityTypeMapping TypeName="DoctorManeModel.Autoris">
+        <MappingFragment StoreEntitySet="Autoris">
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OutputInfo">
+      <EntityTypeMapping TypeName="DoctorManeModel.OutputInfo">
+        <MappingFragment StoreEntitySet="OutputInfo">
+          <ScalarProperty Name="Speciality" ColumnName="Speciality" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Kabunet" ColumnName="Kabunet" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+          <ScalarProperty Name="Positutel" ColumnName="Positutel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

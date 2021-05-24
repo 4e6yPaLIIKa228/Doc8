@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DoctorManeModelContainer" CdmEntityContainer="DoctorManeEntities">
+    <EntitySetMapping Name="Autoris">
+      <EntityTypeMapping TypeName="DoctorManeModel.Autoris">
+        <MappingFragment StoreEntitySet="Autoris">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SNILS" ColumnName="SNILS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OutputInfo">
+      <EntityTypeMapping TypeName="DoctorManeModel.OutputInfo">
+        <MappingFragment StoreEntitySet="OutputInfo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Kabunet" ColumnName="Kabunet" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Doctor" ColumnName="Doctor" />
+          <ScalarProperty Name="Positutel" ColumnName="Positutel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
